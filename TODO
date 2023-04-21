@@ -1,0 +1,12 @@
+API:
+  MAKE:
+  - Login
+  - Register
+
+UI:
+  FUNCTIONALITY:
+  - Auth Context
+  MAKE:
+  - Login --> state handling
+  - Register --> state handling, image upload and on gender select border should appear
+  - Onboarding
