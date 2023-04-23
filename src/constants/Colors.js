@@ -3,6 +3,7 @@ export default {
     text:'#b8b8b8',
     border:'#202020',
     fill:'#171717',
+    tab:'#1e1e1e',
     gradient1:'#8d0696',
     gradient2:'#9d0570',
     gradient3:'#c44bc1',

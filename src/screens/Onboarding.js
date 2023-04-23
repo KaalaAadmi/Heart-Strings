@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     color: Colors.text,
   },
   title: {
-    fontSize: 30,
+    fontSize: 50,
     fontWeight: "bold",
     color: Colors.text,
   },

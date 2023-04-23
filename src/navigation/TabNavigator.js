@@ -14,6 +14,7 @@ import DailyPrompts from "../screens/DailyPrompts";
 import MilestoneTracker from "../screens/MilestoneTracker";
 import Messages from "../screens/Messages";
 import Calendar from "../screens/Calendar";
+import DrawerNavigator from "./DrawerNavigator";
 
 // Contains the screens in the bottom tab navigator
 const TabArr = [
@@ -23,7 +24,7 @@ const TabArr = [
     type: Icons.MaterialCommunityIcons,
     activeIcon: "thought-bubble",
     inActiveIcon: "thought-bubble-outline",
-    component: DailyPrompts,
+    component: DrawerNavigator,
     tabBarColor: Colors.lightRed,
   },
   {
@@ -53,15 +54,6 @@ const TabArr = [
     component: Calendar,
     tabBarColor: Colors.lightRed,
   },
-//   {
-//     route: "Mood",
-//     label: "Mood",
-//     type: Icons.FontAwesome5,
-//     activeIcon: "heartbeat",
-//     inActiveIcon: "heartbeat",
-//     component: Account,
-//     tabBarColor: Colors.purple,
-//   },
 ];
 
 // Constants for the animations of the circle
@@ -229,7 +221,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     alignSelf: "center",
     bottom: MARGIN,
-    backgroundColor: Colors.black,
+    backgroundColor: Colors.tab,
     borderRadius: 10,
     alignItems: "center",
     justifyContent: "space-around",
@@ -237,7 +229,7 @@ const styles = StyleSheet.create({
   slidingTabContainer: {
     width: TAB_WIDTH,
     ...StyleSheet.absoluteFillObject,
-    background: Colors.grey,
+    background: Colors.fill,
     alignItems: "center",
   },
   slidingTab: {
@@ -247,7 +239,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.primary,
     bottom: 25,
     borderWidth: 4,
-    borderColor: Colors.black,
+    borderColor: Colors.white,
   },
 });
 

@@ -1,12 +1,13 @@
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
 import Colors from "../constants/Colors";
+import DrawerView from "../components/DrawerView";
 
 const DailyPrompts = () => {
   return (
-    <View style={styles.container}>
-      <Text>Daily Prompts</Text>
-    </View>
+    <DrawerView style={styles.container}>
+      <Text style={{color:Colors.white}}>Daily Prompts</Text>
+    </DrawerView>
   );
 };
 
@@ -17,7 +18,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor:Colors.dark,
+    backgroundColor:Colors.background,
 
   },
 });

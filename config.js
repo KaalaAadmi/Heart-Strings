@@ -1,0 +1,1 @@
+export const BASE_URL="https://heart-string-backend.vercel.app/api/v1"

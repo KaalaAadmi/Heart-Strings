@@ -1,12 +1,26 @@
 API:
   MAKE:
-  - Login
-  - Register
+  - Login @done
+  - Register @done
 
 UI:
   FUNCTIONALITY:
-  - Auth Context
+  - Auth Context @done
   MAKE:
-  - Login --> state handling
-  - Register --> state handling, image upload and on gender select border should appear
-  - Onboarding
+  - Login --> state handling @done
+  - Register --> state handling, image upload and on gender select border should appear @done
+  - Onboarding @done
+  - Drawer @done
+    - Profile 
+      - User Details
+      - logout @done
+
+
+ADD:
+  LOGIN:
+  - error messages
+  - google and facebook login
+  REGISTER:
+  - google and facebook register
+  Register:
+  - if user exists, give message
